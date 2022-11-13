@@ -2,7 +2,7 @@
 
 using Mumrich.ProtoDomain;
 
-namespace Mumrich.MediaCenter.Domain.Models
+namespace Mumrich.MediaCenter.Domain.Entities
 {
   public interface IMediaAsset : IEntity
   {
