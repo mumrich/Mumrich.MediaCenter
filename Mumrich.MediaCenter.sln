@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mumrich.MediaCenter.Domain", "Mumrich.MediaCenter.Domain\Mumrich.MediaCenter.Domain.csproj", "{16836358-61E5-41B2-A828-7F4F5E778317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mumrich.ProtoDomain", "Mumrich.ProtoDomain\Mumrich.ProtoDomain.csproj", "{35EC8AF5-9968-44E9-93BB-84501A573703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{16836358-61E5-41B2-A828-7F4F5E778317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16836358-61E5-41B2-A828-7F4F5E778317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16836358-61E5-41B2-A828-7F4F5E778317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EC8AF5-9968-44E9-93BB-84501A573703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EC8AF5-9968-44E9-93BB-84501A573703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EC8AF5-9968-44E9-93BB-84501A573703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EC8AF5-9968-44E9-93BB-84501A573703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
