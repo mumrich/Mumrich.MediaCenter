@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mumrich.ProtoDomain\Mumrich.ProtoDomain.csproj" />
+  </ItemGroup>
+
 </Project>
