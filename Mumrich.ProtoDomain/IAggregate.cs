@@ -1,6 +1,6 @@
 ﻿namespace Mumrich.ProtoDomain
 {
-  public interface IAggregate<out TModel> where TModel : IEntity
+  public interface IAggregate<TModel> : IEntity
   {
     TModel Model { get; }
   }
