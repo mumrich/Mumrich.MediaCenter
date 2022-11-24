@@ -32,8 +32,8 @@ public class MediaAssetsAggregate : IAggregate<IEnumerable<IMediaAsset>>, IWithC
     return _model.TryGetValue(query.Id, out IMediaAsset? mediaAsset)
       ? new GetMediaAssetQueryResponse(mediaAsset, Array.Empty<Exception>())
       : new GetMediaAssetQueryResponse(null, new[]
-    {
-      new InvalidConstraintException($"Unknown MediaAsset ID: {query.Id}")
-    });
+        {
+          new InvalidConstraintException($"Unknown MediaAsset ID: {query.Id}")
+        });
   }
 }
