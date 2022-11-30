@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mumrich.ProtoDomain
+namespace Mumrich.ProtoDomain.Primitives
 {
   public interface IEntity
   {

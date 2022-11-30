@@ -3,7 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 
 using Mumrich.MediaCenter.Domain.Models;
-using Mumrich.ProtoDomain;
+using Mumrich.ProtoDomain.Primitives;
 
 namespace Mumrich.MediaCenter.Domain.Entities
 {

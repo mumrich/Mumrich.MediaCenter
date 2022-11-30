@@ -1,4 +1,4 @@
-﻿namespace Mumrich.ProtoDomain
+﻿namespace Mumrich.ProtoDomain.Primitives
 {
   public interface IAggregate<TModel> : IEntity
   {

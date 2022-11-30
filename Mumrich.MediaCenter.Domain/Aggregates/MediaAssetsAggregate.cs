@@ -4,6 +4,8 @@ using System.Data;
 using System.Linq;
 
 using Mumrich.ProtoDomain;
+using Mumrich.ProtoDomain.CQS;
+using Mumrich.ProtoDomain.Primitives;
 
 namespace Mumrich.MediaCenter.Domain.Entities;
 

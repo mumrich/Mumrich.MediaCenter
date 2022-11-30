@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-using Mumrich.ProtoDomain;
+using Mumrich.ProtoDomain.Primitives;
 
 namespace Mumrich.MediaCenter.Domain.Entities;
 

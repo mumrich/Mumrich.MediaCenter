@@ -1,4 +1,4 @@
-﻿using Mumrich.ProtoDomain;
+﻿using Mumrich.ProtoDomain.Primitives;
 
 namespace Mumrich.MediaCenter.Domain.Models
 {

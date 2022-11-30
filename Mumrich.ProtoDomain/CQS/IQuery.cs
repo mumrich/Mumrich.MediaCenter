@@ -1,4 +1,4 @@
-namespace Mumrich.ProtoDomain;
+namespace Mumrich.ProtoDomain.CQS;
 
 public interface IQuery : ITimestamped
 { }
