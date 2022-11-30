@@ -3,9 +3,7 @@ using Mumrich.ProtoDomain.Primitives;
 
 namespace Mumrich.ProtoDomain.Aggregate;
 
-public interface IAggregate<TState> : IReferenceObject
+public interface IAggregateState : IReferenceObject
 {
-  TState State { get; }
-
-  void On(IEvent @event);
+  IValueResponse<IAggregateState> Apply(IEvent @event);
 }
