@@ -18,8 +18,15 @@ public interface IReferenceObject
   Guid Id { get; }
 }
 
+public record ZonedDateTime(DateTime TimeStampUtc, TimeZoneInfo TimeZone)
+{
+  public static ZonedDateTime NewUtcNowZonedDateTime()
+  {
+    return new ZonedDateTime(DateTime.UtcNow, TimeZoneInfo.Utc);
+  }
+}
+
 public interface ITimestamped
 {
-  DateTime TimestampUTC { get; }
-  TimeZoneInfo TimeZone { get; }
+  ZonedDateTime TimeStamp { get; }
 }
