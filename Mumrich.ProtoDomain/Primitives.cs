@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 namespace Mumrich.ProtoDomain.Primitives;
 
@@ -23,13 +22,4 @@ public interface ITimestamped
 {
   DateTime TimestampUTC { get; }
   TimeZoneInfo TimeZone { get; }
-}
-
-public interface IEvent : IReferenceObject, ITimestamped
-{
-}
-
-public interface IResponse : IEvent
-{
-  IEnumerable<Exception> Exceptions { get; }
 }
