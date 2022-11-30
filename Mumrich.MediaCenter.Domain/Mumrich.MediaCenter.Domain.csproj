@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Akka" Version="1.5.0-alpha3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Mumrich.ProtoDomain\Mumrich.ProtoDomain.csproj" />
   </ItemGroup>
 
